@@ -1,4 +1,4 @@
-                                                                                       IRIS
+                                                   IRIS   
 IRIS is an e-commerce application with a corresponding website designed for selling jewelry (Diamond & Gold).
 Project Demo
 You can click on th following link to see full demo for mobile application:https://drive.google.com/file/d/1WpVqK7KaWLh5sJaKv19Mg8KO9r1ebJsg/view?usp=drive_link
