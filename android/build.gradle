@@ -1,0 +1,34 @@
+buildscript {
+    repositories {
+        // Check that you have the following line (if not, add it):
+        google()
+        mavenCentral() // Google's Maven repository
+    }
+
+    // Set the Kotlin version here
+    ext.kotlin_version = '1.9.20'
+
+    dependencies {
+        classpath 'com.google.gms:google-services:4.4.1' // Google Services plugin
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" // Kotlin Gradle plugin
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
