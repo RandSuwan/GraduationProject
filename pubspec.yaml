@@ -1,0 +1,236 @@
+name: project1
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  video_player: ^2.8.6
+  flick_video_player: ^0.7.0
+  http: ^1.2.1
+  curved_navigation_bar: ^1.0.3
+  image_picker: ^1.1.1
+  focused_menu: ^1.0.5
+  dotted_border: ^2.1.0
+  cloud_firestore: ^4.17.2
+  firebase_core: ^2.30.1
+  firebase_auth: ^4.19.5
+  firebase_storage: ^11.7.4
+  firebase_performance: ^0.9.4+4
+  firebase_database: ^10.5.4
+  firebase_app_check: ^0.2.2+5
+  popover: ^0.3.0
+  provider: ^6.1.2
+  intl: ^0.17.0
+  lottie: ^3.1.2
+  fl_chart: ^0.68.0
+  hidden_drawer_menu: ^3.0.1
+  cached_network_image: ^3.2.3
+  url_launcher: ^6.3.0
+  firebase_messaging: ^14.0.1
+  flutter_local_notifications: ^9.8.0+1
+  shared_preferences: ^2.2.3
+  photo_view: ^0.15.0
+  image: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/login2.jpg
+    - images/logo1.jpg
+    - images/gold.jpg
+    - images/diam.jpg
+    - images/sale.jpeg
+    - images/flogo1.jpg
+    - images/logo2.jpg
+    - images/earring.jpg
+    - images/ring.jpg
+    - images/Necklace.jpg
+    - images/jewellery.png
+    - images/IRIS.png
+    - images/IRIS1.png
+    - images/IRIS2.png
+    - images/IRIS3.jpeg
+    - images/hpl.png
+    - images/jewellery (1).png
+    - images/jewe1.png
+    - images/jewe9.png
+    - images/jewe10.png
+    - images/jewe11.png
+    - images/jewe12.png
+    - images/gold1.jpg
+    - images/diam1.jpg
+    - images/diamond-ring.png
+    - images/necklace.png
+    - images/bracelet.png
+    - images/earrings.png
+    - images/set.png
+    - images/dr.png
+    - images/diamring.png
+    - images/diamring1.png
+    - images/design.jpg
+    - images/DYR.png
+    - images/goldback.jpg
+    - images/GHP.png
+    - images/DHP.png
+    - images/GHP1.jpg
+    - images/DHP1.jpg
+    - images/GHP11.png
+    - images/DHP11.png
+    - images/gg.png
+    - images/dd.png
+    - images/ir.png
+    - images/GHP222.png
+    - images/GHPnew.png
+    - images/DHPnew.png
+    - images/ds.jpg
+    - images/gs.jpg
+    - images/defauilt1.PNG
+    - images/csd.png
+    - images/cse.png
+    - images/csr.png
+    - images/cst.png
+    - images/css.png
+    - images/os.PNG
+    - images/ps.PNG
+    - images/prs.PNG
+    - images/rs.PNG
+    - images/side_bead.PNG
+    - images/side_channel.PNG
+    - images/side_none.PNG
+    - images/side_upave.PNG
+    - images/ring_color_gold.PNG
+    - images/ring_color_rosegold.PNG
+    - images/ring_color_white.PNG
+    - images/ring1.jpg
+    - images/ring2.jpg
+    - images/ring3.jpg
+    - images/ring4.jpg
+    - images/ring5.jpg
+    - images/ring6.jpg
+    - images/ring7.jpg
+    - images/ring8.jpg
+    - images/ring9.jpg
+    - images/ruby.jpg
+    - images/diamgemstone.jpg
+    - images/sapphire.jpg
+    - images/bs.jpg
+    - images/dis.jpg
+    - images/na.jpg
+    - images/na2.jpg
+    - images/ovalDiamond.jpg
+    - images/roundedDiamond.jpg
+    - images/thankyou.PNG
+    - images/star.jpg
+    - images/loc.jpg
+    - images/cash.png
+    - images/visa.png
+    - images/paypal.png
+    - images/best_diamond.png
+    - images/sdbg1.jpg
+    - images/sdbg2.jpg
+    - images/sdbg3.png
+    - images/sd.jpg
+    - images/arrow.png
+    - images/arrow (1).png
+    - images/upload.png
+    - images/upload (1).png
+    - images/upload (2).png
+    - images/bg.jpg
+    - images/bg2.jpg
+    - images/bg3.jpg
+    - images/upload (3).png
+    - images/gna.png
+    - images/gbs.png
+    - images/diampage.png
+    - images/goldpage.png
+    - images/hp.PNG
+    - images/google_play_icon.png
+    - images/app_store_icon.png
+    - images/diamondicon.png
+    - images/hello.png
+    - images/question-mark.png
+    - images/features.png
+    - images/pear.jpeg
+    - images/emerald.jpeg
+    - images/Marquise.jpeg
+    - images/oval.jpeg
+    - images/hand01.jpg
+    - images/shopping.png
+    - images/brac.jpg
+    - images/ringg1.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Cormorant_Garamond
+      fonts:
+        - asset: fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf
+    #     - asset: fonts/Schyler-Italic.ttf
+    #         style: italic
+    - family: Libre_Baskerville
+      fonts:
+        - asset: fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

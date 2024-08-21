@@ -1,0 +1,89 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter debug_adapter
+
+## exception
+
+RPCError: resume: (-32603) Unexpected DWDS error for resume: Bad state: No running isolate (inspector is not set).
+
+```
+#0      new _OutstandingRequest (package:vm_service/src/vm_service.dart:265:34)
+#1      VmService._call.<anonymous closure> (package:vm_service/src/vm_service.dart:1771:25)
+#2      VmService._call (package:vm_service/src/vm_service.dart:1783:8)
+#3      VmService.resume (package:vm_service/src/vm_service.dart:1484:7)
+#4      IsolateManager._resume (package:dds/src/dap/isolate_manager.dart:347:33)
+#5      IsolateManager.resumeThread (package:dds/src/dap/isolate_manager.dart:281:11)
+#6      IsolateManager._handlePause (package:dds/src/dap/isolate_manager.dart:591:17)
+#7      IsolateManager.handleEvent (package:dds/src/dap/isolate_manager.dart:203:13)
+<asynchronous suspension>
+#8      DartDebugAdapter._configureExistingIsolates.<anonymous closure> (package:dds/src/dap/adapters/dart.dart:786:9)
+<asynchronous suspension>
+#9      Future.wait.<anonymous closure> (dart:async/future.dart:518:21)
+<asynchronous suspension>
+#10     DartDebugAdapter._configureExistingIsolates (package:dds/src/dap/adapters/dart.dart:771:5)
+<asynchronous suspension>
+#11     DartDebugAdapter._withErrorHandling (package:dds/src/dap/adapters/dart.dart:2644:14)
+<asynchronous suspension>
+#12     DartDebugAdapter.connectDebugger (package:dds/src/dap/adapters/dart.dart:704:5)
+<asynchronous suspension>
+#13     FlutterDebugAdapter._connectDebugger (package:flutter_tools/src/debug_adapters/flutter_adapter.dart:381:9)
+<asynchronous suspension>
+#14     FlutterDebugAdapter._handleDebugPort (package:flutter_tools/src/debug_adapters/flutter_adapter.dart:462:7)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.19.2, on Microsoft Windows [Version 10.0.19045.4529], locale en-US)
+    • Flutter version 3.19.2 on channel stable at C:\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 7482962148 (4 months ago), 2024-02-27 16:51:22 -0500
+    • Engine revision 04817c99c9
+    • Dart version 3.3.0
+    • DevTools version 2.31.1
+
+[✓] Windows Version (Installed version of Windows is version 10 or higher)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 34.0.0)
+    • Android SDK at C:\Users\DELL\AppData\Local\Android\Sdk
+    • Platform android-34, build-tools 34.0.0
+    • ANDROID_HOME = C:\Users\DELL\AppData\Local\Android\Sdk
+    • Java binary at: C:\Program Files\Android\Android Studio\jbr\bin\java
+    • Java version OpenJDK Runtime Environment (build 17.0.9+0--11185874)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[✓] Visual Studio - develop Windows apps (Visual Studio Community 2019 16.7.2)
+    • Visual Studio at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
+    • Visual Studio Community 2019 version 16.7.30413.136
+    • Windows 10 SDK version 10.0.18362.0
+
+[✓] Android Studio (version 2023.2)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 17.0.9+0--11185874)
+
+[✓] VS Code (version 1.90.1)
+    • VS Code at C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.90.0
+
+[✓] Connected device (4 available)
+    • sdk gphone64 x86 64 (mobile) • emulator-5554 • android-x64    • Android 12 (API 31) (emulator)
+    • Windows (desktop)            • windows       • windows-x64    • Microsoft Windows [Version 10.0.19045.4529]
+    • Chrome (web)                 • chrome        • web-javascript • Google Chrome 126.0.6478.114
+    • Edge (web)                   • edge          • web-javascript • Microsoft Edge 126.0.2592.61
+
+[✓] Network resources
+    • All expected network resources are available.
+
+• No issues found!
+```
