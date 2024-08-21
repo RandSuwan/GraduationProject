@@ -1,16 +1,14 @@
-# project1
+                                                                                       IRIS
+IRIS is an e-commerce application with a corresponding website designed for selling jewelry (Diamond & Gold).
+Project Demo
+You can click on th following link to see full demo for mobile application:https://drive.google.com/file/d/1WpVqK7KaWLh5sJaKv19Mg8KO9r1ebJsg/view?usp=drive_link
 
-A new Flutter project.
+You can click on th following link to see full demo for website:
+https://drive.google.com/file/d/1wfpTmAQkyRQZo3UDcAW8Xl-ccOAOaVX3/view?usp=drive_link
 
-## Getting Started
+You can click on th following link to see report:
+https://drive.google.com/file/d/1gM-HXn-pIMsODfkeE753-MPZWGB916rM/view?usp=drive_link
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Project Demo
+                                                                                         
