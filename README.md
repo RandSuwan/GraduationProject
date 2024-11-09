@@ -10,14 +10,6 @@ https://drive.google.com/file/d/1wfpTmAQkyRQZo3UDcAW8Xl-ccOAOaVX3/view?usp=drive
 You can click on th following link to see report:
 https://drive.google.com/file/d/1gM-HXn-pIMsODfkeE753-MPZWGB916rM/view?usp=drive_link
 
-# Project Demo
-
-*Login, Sign up, and Forgot password pages:
-
-![image](https://github.com/user-attachments/assets/e8f1f757-773a-45b7-a89d-426e11d37020)
-![image](https://github.com/user-attachments/assets/fbe8f35b-b06a-489a-896f-d8637210084c)
-![image](https://github.com/user-attachments/assets/ed2de7ad-3103-4493-a723-751a304c775a)
-
 
 
                                                                                          
